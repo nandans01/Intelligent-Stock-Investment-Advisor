@@ -38,7 +38,7 @@ This system transforms hours of manual research into actionable insights in seco
 - **stock_analysis_agent** (Sequential): ticker_agent → parallel_data_agent → stock_recommendation_agent
 - **root_agent** (Sequential): stock_analysis_agent → portfolio_allocation_agent
 
-###4.2 ASCII Architecture Diagram
+### 4.2 ASCII Architecture Diagram
 ![](images/Ascii_Architecture_Diagram.png)
 
 ## 5. Key Features
