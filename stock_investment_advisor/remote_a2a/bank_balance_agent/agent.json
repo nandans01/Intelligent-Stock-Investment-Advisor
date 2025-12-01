@@ -1,0 +1,17 @@
+{
+  "capabilities": {},
+  "defaultInputModes": ["text/plain"],
+  "defaultOutputModes": ["application/json"],
+  "description": "An agent specialized in providing bank account balance information. It can retrieve available cash balance from the bank account.",
+  "name": "bank_balance_agent",
+  "skills": [
+    {
+      "id": "bank_balance_checking",
+      "name": "Bank Balance Retrieval",
+      "description": "Retrieve available cash balance from bank account with real-time balance information",
+      "tags": ["financial", "banking", "balance", "cash"]
+    }
+  ],
+  "url": "http://localhost:8001/a2a/bank_balance_agent",
+  "version": "1.0.0"
+}
