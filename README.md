@@ -82,8 +82,11 @@ This system transforms hours of manual research into actionable insights in seco
 ## 10. Steps to Run Agent Locally
 
 ```bash
-Create a local clone of repository, the folder structure will be as follows:
-<local repo path>/
+#Create a local clone of repository.
+git clone https://github.com/nandans01/Intelligent-Stock-Investment-Advisor.git
+
+The folder structure will be as follows:
+Intelligent-Stock-Investment-Advisor/
 ├── stock_investment_advisor/
 │   └── stockInvestmentAgent.py
 │   ├── agent.py
@@ -100,7 +103,10 @@ Create a local clone of repository, the folder structure will be as follows:
 ```
 ```bash
 #Navigate to the <local repo path>
-cd <local repo path>
+cd Intelligent-Stock-Investment-Advisor
+
+#Install dependencies
+pip install -r requirements.txt
 ```
 ```bash
 #Start the remote a2a server that serves the bank_agent on port 8001
@@ -115,7 +121,7 @@ adk web --log_level debug
 http://localhost:8000
 ```
 ```bash
-Select the stock_investment_advisor agent from the drop-down menu on the left side of the web page.
+Select the "stock_investment_advisor" agent from the drop-down menu on the left side of the web page.
 ```
 
 ## 11. Sample Queries
@@ -170,7 +176,7 @@ If you're interested in legitimate investment opportunities, I can provide infor
 ## 13. Steps to run eval set testcases
 ```bash
 #Navigate to the <local repo path> and execute following command
-cd <local repo path>
+cd Intelligent-Stock-Investment-Advisor
 python tests/run_eval_stockInvestmentAgent.py
 ```
 ```bash
