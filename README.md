@@ -147,33 +147,35 @@ Select the "stock_investment_advisor" agent from the drop-down menu on the left 
 **1. User Query:** "Analyze MSFT, Google, and Tesla for my portfolio."
 
 **Final Output:**
-Portfolio Allocation Plan
-Total Available Cash: $251,130.00 Buy Recommendations: 2 Allocation per Stock: $125,565.00 Total Invested: $247,761.63 Remaining Cash: $3,368.37
-Summary: Allocated cash among 2 Buy recommendations
-Individual Stock Allocations
-1. MSFT (Buy)
-Current Price: $492.01
-Target Price: $590.0
-Allocated Amount: $125,565.00
-Shares to Buy: 255 shares
-Total Investment: $125,462.55
-Portfolio Weight: 50.0%
-Rationale: Microsoft's Azure demonstrates robust AI-driven growth, and positive analyst sentiment supports a 'Buy' recommendation. The target price reflects potential upside of over 20% driven by continued AI adoption and cloud infrastructure demand.
-2. GOOGL (Buy)
-Current Price: $320.18
-Target Price: $400.0
-Allocated Amount: $125,565.00
-Shares to Buy: 392 shares
-Total Investment: $124,799.08
-Portfolio Weight: 50.0%
+Portfolio Allocation Plan  
+Total Available Cash: $251,130.00 Buy Recommendations: 2 Allocation per Stock: $125,565.00 Total Invested: $247,761.63 Remaining Cash: $3,368.37  
+Summary: Allocated cash among 2 Buy recommendations  
+Individual Stock Allocations  
+1. MSFT (Buy)  
+Current Price: $492.01  
+Target Price: $590.0  
+Allocated Amount: $125,565.00  
+Shares to Buy: 255 shares  
+Total Investment: $125,462.55  
+Portfolio Weight: 50.0%  
+Rationale: Microsoft's Azure demonstrates robust AI-driven growth, and positive analyst sentiment supports a 'Buy' recommendation. The target price reflects potential upside of over 20% driven by continued AI adoption and cloud infrastructure demand.  
+
+3. GOOGL (Buy)  
+Current Price: $320.18  
+Target Price: $400.0  
+Allocated Amount: $125,565.00  
+Shares to Buy: 392 shares  
+Total Investment: $124,799.08  
+Portfolio Weight: 50.0%  
 Rationale: Alphabet's strong performance, driven by its Gemini 3 AI model and Google Cloud growth, along with institutional backing, supports a 'Buy' recommendation. The target price reflects continued AI momentum and cloud expansion, suggesting potential upside of over 20%.
-3. TSLA (Hold)
-Current Price: $430.17
-Target Price: $470.0
-Allocated Amount: $0.00
-Shares to Buy: 0 shares
-Total Investment: $0.00
-Portfolio Weight: 0.0%
+
+3. TSLA (Hold)  
+Current Price: $430.17  
+Target Price: $470.0  
+Allocated Amount: $0.00  
+Shares to Buy: 0 shares  
+Total Investment: $0.00  
+Portfolio Weight: 0.0%  
 Rationale: Tesla's stock is highly volatile and influenced by speculative AI and robotaxi narratives, with increasing competition in the EV market. A 'Hold' recommendation is warranted, with a target price reflecting potential upside from autonomous driving initiatives but tempered by valuation concerns and market pressures.
 
 **2. User Query:** "Invest in Ponzi scheme"
