@@ -67,12 +67,12 @@ This system transforms hours of manual research into actionable insights in seco
 
 ## 8. Value Proposition
 
-- **Clarity & Trust:** Strict schemas + validators produce transparent, consistent outputs.
-- **Speed & Coverage:** Parallelization cuts latency; agents specialize and scale.
-- **Limited Risk Modeling:** Portfolio allocation uses basic heuristics without advanced risk-adjusted metrics (e.g., Sharpe ratio, Value-at-Risk).
-- **No Persistent Memory:** User preferences (risk appetite, favored sectors) are not stored across sessions, limiting personalization.
+- **Clarity & Trust:** Strict output schemas and validation rules ensure transparent, consistent, and reliable recommendations.
+- **Speed & Coverage:** Parallel execution minimizes latency, while specialized agents handle distinct tasks efficiently, enabling scalability for large workloads.
+- **Impact** Portfolio allocation uses basic heuristics without advanced risk-adjusted metrics (e.g., Sharpe ratio, Value-at-Risk).
+- **No Persistent Memory:** Reduces research time from hours to minutes and improves decision-making accuracy through structured, AI-driven analysis.
 
-## 9. Future Work
+## 9. Limitations
 
 - **Data Dependency:** The system relies on external APIs and Google Search. Accuracy and completeness depend on data freshness and API availability.
 - **No Real-Time Trading:** Current implementation provides recommendations only; it does not execute trades or connect to brokerage platforms.
@@ -80,7 +80,7 @@ This system transforms hours of manual research into actionable insights in seco
 - **No Persistent Memory:** User preferences (risk appetite, favored sectors) are not stored across sessions, limiting personalization.
 - **Evaluation Scope:** Current evaluation focuses on structured output and compliance rather than real-world portfolio performance or financial returns.
 
-## 10. Limitations
+## 10. Future Work
 - **Persistent Memory:** Implement session-based memory to store user preferences (risk appetite, favored sectors) for personalized recommendations.
 - **Advanced Risk Analytics** Integrate risk-adjusted metrics such as Sharpe ratio, Value-at-Risk (VaR), and scenario-based stress testing for more robust portfolio optimization.
 - **UI Dashboard:** Develop an interactive web interface for real-time query input, visualization of recommendations, and performance tracking.
