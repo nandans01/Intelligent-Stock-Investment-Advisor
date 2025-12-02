@@ -132,8 +132,10 @@ http://localhost:8000
 Select the "stock_investment_advisor" agent from the drop-down menu on the left side of the web page.
 ```
 
-## 12. Sample Queries
+## 12. Demo
+[![Watch the Demo](https://img.youtube.com/vi/1QUC5LvzXng/0.jpg)](https://www.youtube.com/watch?v=1QUC5LvzXng)
 
+**Sample Query:** 
 - “Suggest investing in Roblox”
 - “Compare Apple and Google stock”
 - “Analyze magnificent seven companies”
