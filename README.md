@@ -69,8 +69,9 @@ This system transforms hours of manual research into actionable insights in seco
 
 - **Clarity & Trust:** Strict output schemas and validation rules ensure transparent, consistent, and reliable recommendations.
 - **Speed & Coverage:** Parallel execution minimizes latency, while specialized agents handle distinct tasks efficiently, enabling scalability for large workloads.
-- **Impact** Portfolio allocation uses basic heuristics without advanced risk-adjusted metrics (e.g., Sharpe ratio, Value-at-Risk).
-- **No Persistent Memory:** Reduces research time from hours to minutes and improves decision-making accuracy through structured, AI-driven analysis.
+- **Actionability:** Converts insights to allocation with explicit math and constraints.
+- **Extensibility:** A2A interoperability allows seamless integration of external systems (e.g., brokerage APIs, advanced risk models) without modifying core logic.
+- **Impact:** Reduces research time from hours to minutes and improves decision-making accuracy through structured, AI-driven analysis.
 
 ## 9. Limitations
 
@@ -84,7 +85,7 @@ This system transforms hours of manual research into actionable insights in seco
 - **Persistent Memory:** Implement session-based memory to store user preferences (risk appetite, favored sectors) for personalized recommendations.
 - **Advanced Risk Analytics** Integrate risk-adjusted metrics such as Sharpe ratio, Value-at-Risk (VaR), and scenario-based stress testing for more robust portfolio optimization.
 - **UI Dashboard:** Develop an interactive web interface for real-time query input, visualization of recommendations, and performance tracking.
-- **Integration with Brokerage APIs:** Add rationale for each recommendation using LLM interpretability techniques to improve transparency and trust.
+- **Integration with Brokerage APIs:** Enable end-to-end execution of trades and portfolio rebalancing for enterprise and retail use cases.
 - **Scalability:** Deploy as a cloud-native microservice architecture for enterprise adoption and high availability.
 
 ## 11. Steps to Run Agent Locally
