@@ -69,17 +69,25 @@ This system transforms hours of manual research into actionable insights in seco
 
 - **Clarity & Trust:** Strict schemas + validators produce transparent, consistent outputs.
 - **Speed & Coverage:** Parallelization cuts latency; agents specialize and scale.
-- **Actionability:** Converts insights to allocation with explicit math and constraints.
-- **Extensibility:** A2A enables plugging in new external systems (e.g., broker, risk models) without changing core logic.
+- **Limited Risk Modeling:** Portfolio allocation uses basic heuristics without advanced risk-adjusted metrics (e.g., Sharpe ratio, Value-at-Risk).
+- **No Persistent Memory:** User preferences (risk appetite, favored sectors) are not stored across sessions, limiting personalization.
 
-## 9. Limitations & Future Work
+## 9. Future Work
 
-- **Data Depth:** Current fundamentals rely on summarized news + price techs; adding earnings, valuation ratios, or sector beta would enrich targets.
-- **Risk Modeling:** Introduce per‑ticker risk weights (volatility, drawdown) and non‑equal allocations.
-- **Memory:** Persist session state (preferences, risk tolerance) for personalized recommendations.
-- **Deployment:** Expose endpoints via a lightweight API/UI and add auth/quotas for the A2A bank integration.
+- **Data Dependency:** The system relies on external APIs and Google Search. Accuracy and completeness depend on data freshness and API availability.
+- **No Real-Time Trading:** Current implementation provides recommendations only; it does not execute trades or connect to brokerage platforms.
+- **Limited Risk Modeling:** Portfolio allocation uses basic heuristics without advanced risk-adjusted metrics (e.g., Sharpe ratio, Value-at-Risk).
+- **No Persistent Memory:** User preferences (risk appetite, favored sectors) are not stored across sessions, limiting personalization.
+- **Evaluation Scope:** Current evaluation focuses on structured output and compliance rather than real-world portfolio performance or financial returns.
 
-## 10. Steps to Run Agent Locally
+## 10. Limitations
+- **Persistent Memory:** Implement session-based memory to store user preferences (risk appetite, favored sectors) for personalized recommendations.
+- **Advanced Risk Analytics** Integrate risk-adjusted metrics such as Sharpe ratio, Value-at-Risk (VaR), and scenario-based stress testing for more robust portfolio optimization.
+- **UI Dashboard:** Develop an interactive web interface for real-time query input, visualization of recommendations, and performance tracking.
+- **Integration with Brokerage APIs:** Add rationale for each recommendation using LLM interpretability techniques to improve transparency and trust.
+- **Scalability:** Deploy as a cloud-native microservice architecture for enterprise adoption and high availability.
+
+## 11. Steps to Run Agent Locally
 
 ```bash
 #Create a local clone of repository.
@@ -124,7 +132,7 @@ http://localhost:8000
 Select the "stock_investment_advisor" agent from the drop-down menu on the left side of the web page.
 ```
 
-## 11. Sample Queries
+## 12. Sample Queries
 
 - “Suggest investing in Roblox”
 - “Compare Apple and Google stock”
@@ -132,7 +140,7 @@ Select the "stock_investment_advisor" agent from the drop-down menu on the left 
 - “Invest in Ponzi scheme”
 - “Identify investment opportunities for MSFT, Facebook, and Tesla”
 
-## 12. System Responses
+## 13. System Responses
 
 **1. User Query:** "Analyze MSFT, Google, and Tesla for my portfolio."
 
@@ -173,7 +181,7 @@ I cannot fulfill this request. Investing in a Ponzi scheme is illegal and unethi
 
 If you're interested in legitimate investment opportunities, I can provide information on stocks that have received a "Buy" recommendation, based on the analysis I have access to.
 
-## 13. Steps to run eval set testcases
+## 14. Steps to run eval set testcases
 ```bash
 #Navigate to the <local repo path> and execute following command
 cd Intelligent-Stock-Investment-Advisor
