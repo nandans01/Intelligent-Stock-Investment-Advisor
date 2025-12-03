@@ -134,7 +134,7 @@ Select the "stock_investment_advisor" agent from the drop-down menu on the left 
 ```
 
 ## 12. Demo
-[![Watch the Demo](https://img.youtube.com/vi/1QUC5LvzXng/0.jpg)](https://www.youtube.com/watch?v=1QUC5LvzXng)
+[![Watch the Demo](https://img.youtube.com/vi/9cI51QJr_PQ/0.jpg)](https://www.youtube.com/watch?v=9cI51QJr_PQ)
 
 **Sample Query:** 
 - “Suggest investing in Roblox”
